@@ -16,3 +16,8 @@ Icon
 
 # Vim swap files
 .*.sw?
+
+# Excluding Grunt generated files
+Gruntfile.js
+package.json
+node_modules/*
