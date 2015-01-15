@@ -8,9 +8,7 @@ base theme = bootstrap
 ;; Regions
 ;;;;;;;;;;;;;;;;;;;;;
 
-regions[header-left]    = 'Top bar'
-regions[header-right]   = 'User menu'
-regions[main_menu]      = 'Main menu'
+regions[header]         = 'Top bar'
 
 regions[highlighted]    = 'Highlighted'
 
