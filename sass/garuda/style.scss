@@ -104,3 +104,57 @@ Highlighted main
     line-height: 40px;
   }
 }
+
+/*
+Page Bottom
+*/
+#page_bottom1,#page_bottom2,#page_bottom3,#page_bottom4{
+  border-top: 5px solid #28a9e0;
+  background-color: #fff;
+  -moz-box-shadow:    1px 1px 10px 2px #ccc;
+  -webkit-box-shadow: 1px 1px 10px 2px #ccc;
+  box-shadow:         1px 1px 10px 2px #ccc;
+  padding: 10px;
+  font-size: 12px;
+  height: auto;
+  min-height: 930px;
+  .region{
+    h2.block-title{
+      color: #28a9e0;
+      text-align: center;
+      font-size: 16px;
+      background: url('line-body.png') no-repeat;
+      opacity: 0.5;
+      background-position: center;
+    }
+    .view{
+      position: relative;
+      min-height: 875px;
+      height: auto;
+      .view-content{
+        h2{
+          a{
+            color: #2980b9;
+            font-size: 13px;
+          }
+        }
+        .content{
+          text-align: justify;
+        }
+      }
+      .more-link{
+        background-color: #ec2727;
+        padding: 5px;
+        right: 0;
+        margin: 10px 0;
+        position: absolute;
+        bottom: 0;
+        a{
+          color: #fff;
+          font-size: 12px;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}

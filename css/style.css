@@ -128,3 +128,58 @@ Highlighted main
   margin-top: 10%;
   line-height: 40px;
 }
+
+/*
+Page Bottom
+*/
+/* line 111, ../sass/garuda/style.scss */
+#page_bottom1, #page_bottom2, #page_bottom3, #page_bottom4 {
+  border-top: 5px solid #28a9e0;
+  background-color: #fff;
+  -moz-box-shadow: 1px 1px 10px 2px #ccc;
+  -webkit-box-shadow: 1px 1px 10px 2px #ccc;
+  box-shadow: 1px 1px 10px 2px #ccc;
+  padding: 10px;
+  font-size: 12px;
+  height: auto;
+  min-height: 930px;
+}
+/* line 122, ../sass/garuda/style.scss */
+#page_bottom1 .region h2.block-title, #page_bottom2 .region h2.block-title, #page_bottom3 .region h2.block-title, #page_bottom4 .region h2.block-title {
+  color: #28a9e0;
+  text-align: center;
+  font-size: 16px;
+  background: url("line-body.png") no-repeat;
+  opacity: 0.5;
+  background-position: center;
+}
+/* line 130, ../sass/garuda/style.scss */
+#page_bottom1 .region .view, #page_bottom2 .region .view, #page_bottom3 .region .view, #page_bottom4 .region .view {
+  position: relative;
+  min-height: 875px;
+  height: auto;
+}
+/* line 136, ../sass/garuda/style.scss */
+#page_bottom1 .region .view .view-content h2 a, #page_bottom2 .region .view .view-content h2 a, #page_bottom3 .region .view .view-content h2 a, #page_bottom4 .region .view .view-content h2 a {
+  color: #2980b9;
+  font-size: 13px;
+}
+/* line 141, ../sass/garuda/style.scss */
+#page_bottom1 .region .view .view-content .content, #page_bottom2 .region .view .view-content .content, #page_bottom3 .region .view .view-content .content, #page_bottom4 .region .view .view-content .content {
+  text-align: justify;
+}
+/* line 145, ../sass/garuda/style.scss */
+#page_bottom1 .region .view .more-link, #page_bottom2 .region .view .more-link, #page_bottom3 .region .view .more-link, #page_bottom4 .region .view .more-link {
+  background-color: #ec2727;
+  padding: 5px;
+  right: 0;
+  margin: 10px 0;
+  position: absolute;
+  bottom: 0;
+}
+/* line 152, ../sass/garuda/style.scss */
+#page_bottom1 .region .view .more-link a, #page_bottom2 .region .view .more-link a, #page_bottom3 .region .view .more-link a, #page_bottom4 .region .view .more-link a {
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+}

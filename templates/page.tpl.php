@@ -137,21 +137,37 @@
 
     <div class="row col-lg-12">
 
-      <div class="col-xs-12 col-md-6 col-lg-3" id="page_bottom1">
-        <?php print render($page['page_bottom1']); ?>
-      </div>
+      <?php if (!empty($page['page_bottom1'])): ?>
+      <aside class="col-xs-12 col-md-6 col-lg-3">
+        <div id="page_bottom1">
+          <?php print render($page['page_bottom1']); ?>
+        </div>
+      </aside>
+      <?php endif; ?>
 
-      <div class="col-xs-12 col-md-6 col-lg-3" id="page_bottom2">
-        <?php print render($page['page_bottom2']); ?>
-      </div>
+      <?php if (!empty($page['page_bottom2'])): ?>
+      <aside class="col-xs-12 col-md-6 col-lg-3">
+        <div id="page_bottom1">
+          <?php print render($page['page_bottom2']); ?>
+        </div>
+      </aside>
+      <?php endif; ?>
 
-      <div class="col-xs-12 col-md-6 col-lg-3" id="page_bottom3">
-        <?php print render($page['page_bottom3']); ?>
-      </div>
+      <?php if (!empty($page['page_bottom3'])): ?>
+      <aside class="col-xs-12 col-md-6 col-lg-3">
+        <div id="page_bottom1">
+          <?php print render($page['page_bottom3']); ?>
+        </div>
+      </aside>
+      <?php endif; ?>
 
-      <div class="col-xs-12 col-md-6 col-lg-3" id="page_bottom4">
-        <?php print render($page['page_bottom4']); ?>
-      </div>
+      <?php if (!empty($page['page_bottom4'])): ?>
+      <aside class="col-xs-12 col-md-6 col-lg-3">
+        <div id="page_bottom1">
+          <?php print render($page['page_bottom4']); ?>
+        </div>
+      </aside>
+      <?php endif; ?>
     </div>
 
   </div>
