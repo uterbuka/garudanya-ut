@@ -1,7 +1,7 @@
 /*
 Custom override
 */
-/* line 5, ../sass/garuda/style.scss */
+/* line 6, ../sass/garuda/style.scss */
 .topbar {
   background-color: #000;
   opacity: 0.5;
@@ -11,78 +11,95 @@ Custom override
   padding: 4px 0;
 }
 
-/* line 13, ../sass/garuda/style.scss */
+/* line 14, ../sass/garuda/style.scss */
 .menu.nav.navbar-nav.secondary {
   display: inline-flex;
 }
-/* line 15, ../sass/garuda/style.scss */
+/* line 16, ../sass/garuda/style.scss */
 .menu.nav.navbar-nav.secondary li.first a {
   padding: 0 5px;
   color: #fff;
 }
-/* line 21, ../sass/garuda/style.scss */
+/* line 22, ../sass/garuda/style.scss */
 .menu.nav.navbar-nav.secondary li.last a {
   padding: 0 5px;
   color: #fff;
 }
 
-/* line 27, ../sass/garuda/style.scss */
-#navbars {
-  background: url("header-top.jpg") no-repeat;
-  clear: both;
+/* line 28, ../sass/garuda/style.scss */
+.text-top {
+  color: #fff;
+  font-size: 13px;
 }
 
-/* line 32, ../sass/garuda/style.scss */
+/* line 33, ../sass/garuda/style.scss */
 .navbar-collapse.collapse ul.menu {
-  padding-left: 10%;
+  padding-left: 5%;
 }
-/* line 35, ../sass/garuda/style.scss */
+/* line 36, ../sass/garuda/style.scss */
 .navbar-collapse.collapse ul.menu li a {
   color: #fff;
   font-size: 15px;
   text-transform: uppercase;
   text-decoration: none;
 }
-/* line 40, ../sass/garuda/style.scss */
+/* line 41, ../sass/garuda/style.scss */
 .navbar-collapse.collapse ul.menu li a:hover {
-  color: #fff;
+  color: #f3b53d;
 }
 
-/* line 47, ../sass/garuda/style.scss */
+/* line 48, ../sass/garuda/style.scss */
 .navbar {
   text-transform: none;
 }
 
-/* line 53, ../sass/garuda/style.scss */
-.navbar-collapse in ul.menu li a {
+/* line 54, ../sass/garuda/style.scss */
+#navbar ul.menu li a {
   color: #fff;
   font-size: 15px;
   text-transform: uppercase;
   text-decoration: none;
 }
-/* line 58, ../sass/garuda/style.scss */
-.navbar-collapse in ul.menu li a:hover {
-  color: #fff;
+/* line 59, ../sass/garuda/style.scss */
+#navbar ul.menu li a:hover {
+  color: #f3b53d;
 }
 
-/* line 65, ../sass/garuda/style.scss */
+/* line 66, ../sass/garuda/style.scss */
 .navbar-header img {
   padding: 0 5px;
 }
 
 /* line 69, ../sass/garuda/style.scss */
-.nav > li > a:hover {
-  background-color: transparent;
-  text-decoration: none;
+.navbar-full {
+  background: url("header-top.jpg") no-repeat;
 }
 
-/* line 74, ../sass/garuda/style.scss */
+@media only screen and (max-width: 766px) {
+  /* line 73, ../sass/garuda/style.scss */
+  .collapsing, .in {
+    background-color: #f1de93;
+    padding-left: 5%;
+  }
+
+  /* line 74, ../sass/garuda/style.scss */
+  .collapsing ul li a, .in ul li a {
+    color: #ffffff !important;
+    padding-left: 5%;
+  }
+
+  /* line 75, ../sass/garuda/style.scss */
+  .collapsing ul li a:hover, .in ul li a:hover {
+    color: #f3b53d !important;
+  }
+}
+/* line 79, ../sass/garuda/style.scss */
 .region.region-header p {
   font-size: 12px;
   color: #fff;
 }
 
-/* line 79, ../sass/garuda/style.scss */
+/* line 84, ../sass/garuda/style.scss */
 .menu.nav.navbar-nav.secondary a {
   font-size: 12px;
 }
