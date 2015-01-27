@@ -51,105 +51,107 @@
   </div>
 </header>
 
-<div class="main-container container">
-  <div class="row col-lg-12">
+<div class="container-full highlighted-main">
+  <div class="col-lg-12">
     <?php if (!empty($page['highlighted'])): ?>
-      <div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
+      <div class="highlighted"><?php print render($page['highlighted']); ?></div>
     <?php endif; ?>
   </div>
+</div>
 
-  <div class="row col-lg-12">
+<div class="main-container container-full">
+  <div class="container">
+    <div class="row col-lg-12">
 
-    <div class="col-xs-12 col-md-6 col-lg-3" id="page_top1">
-      <?php print render($page['page_top1']); ?>
+      <div class="col-xs-12 col-md-6 col-lg-3" id="page_top1">
+        <?php print render($page['page_top1']); ?>
+      </div>
+
+      <div class="col-xs-12 col-md-6 col-lg-3" id="page_top2">
+        <?php print render($page['page_top2']); ?>
+      </div>
+
+      <div class="col-xs-12 col-md-6 col-lg-3" id="page_top3">
+        <?php print render($page['page_top3']); ?>
+      </div>
+
+      <div class="col-xs-12 col-md-6 col-lg-3" id="page_top4">
+        <?php print render($page['page_top4']); ?>
+      </div>
     </div>
 
-    <div class="col-xs-12 col-md-6 col-lg-3" id="page_top2">
-      <?php print render($page['page_top2']); ?>
+
+    <div class="row col-lg-12">
+
+      <div class="col-sm-4" id="gallery1">
+        <?php print render($page['gallery1']); ?>
+      </div>
+
+      <div class="col-sm-4" id="gallery2">
+        <?php print render($page['gallery2']); ?>
+      </div>
+
+      <div class="col-sm-4" id="gallery3">
+        <?php print render($page['gallery3']); ?>
+      </div>
     </div>
 
-    <div class="col-xs-12 col-md-6 col-lg-3" id="page_top3">
-      <?php print render($page['page_top3']); ?>
-    </div>
-
-    <div class="col-xs-12 col-md-6 col-lg-3" id="page_top4">
-      <?php print render($page['page_top4']); ?>
-    </div>
-
-  </div>
-
-  <div class="row col-lg-12">
-
-    <div class="col-sm-4" id="gallery1">
-      <?php print render($page['gallery1']); ?>
-    </div>
-
-    <div class="col-sm-4" id="gallery2">
-      <?php print render($page['gallery2']); ?>
-    </div>
-
-    <div class="col-sm-4" id="gallery3">
-      <?php print render($page['gallery3']); ?>
-    </div>
-
-  </div>
-
-  <?php if (!empty($page['help'])): ?>
-    <div class="row col-lg-12" id="help">
-      <?php print render($page['help']); ?>
-    </div>
-  <?php endif; ?>
-
-  <div class="row col-lg-12">
-
-    <?php if (!empty($page['sidebar_first'])): ?>
-      <aside class="col-sm-3" role="complementary">
-        <?php print render($page['sidebar_first']); ?>
-      </aside>  <!-- /#sidebar-first -->
+    <?php if (!empty($page['help'])): ?>
+      <div class="row col-lg-12" id="help">
+        <?php print render($page['help']); ?>
+      </div>
     <?php endif; ?>
 
-    <section<?php print $content_column_class; ?>>
-      <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
-      <a id="main-content"></a>
-      <?php print render($title_prefix); ?>
-      <?php if (!empty($title)): ?>
-        <h1 class="page-header"><?php print $title; ?></h1>
+    <div class="row col-lg-12">
+
+      <?php if (!empty($page['sidebar_first'])): ?>
+        <aside class="col-sm-3" role="complementary">
+          <?php print render($page['sidebar_first']); ?>
+        </aside>  <!-- /#sidebar-first -->
       <?php endif; ?>
-      <?php print render($title_suffix); ?>
-      <?php print $messages; ?>
-      <?php if (!empty($tabs)): ?>
-        <?php print render($tabs); ?>
+
+      <section<?php print $content_column_class; ?>>
+        <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
+        <a id="main-content"></a>
+        <?php print render($title_prefix); ?>
+        <?php if (!empty($title)): ?>
+          <h1 class="page-header"><?php print $title; ?></h1>
+        <?php endif; ?>
+        <?php print render($title_suffix); ?>
+        <?php print $messages; ?>
+        <?php if (!empty($tabs)): ?>
+          <?php print render($tabs); ?>
+        <?php endif; ?>
+        <?php if (!empty($action_links)): ?>
+          <ul class="action-links"><?php print render($action_links); ?></ul>
+        <?php endif; ?>
+        <?php print render($page['content']); ?>
+      </section>
+
+      <?php if (!empty($page['sidebar_second'])): ?>
+        <aside class="col-sm-3" role="complementary">
+          <?php print render($page['sidebar_second']); ?>
+        </aside>  <!-- /#sidebar-second -->
       <?php endif; ?>
-      <?php if (!empty($action_links)): ?>
-        <ul class="action-links"><?php print render($action_links); ?></ul>
-      <?php endif; ?>
-      <?php print render($page['content']); ?>
-    </section>
-
-    <?php if (!empty($page['sidebar_second'])): ?>
-      <aside class="col-sm-3" role="complementary">
-        <?php print render($page['sidebar_second']); ?>
-      </aside>  <!-- /#sidebar-second -->
-    <?php endif; ?>
-
-  </div>
-
-  <div class="row col-lg-12">
-
-    <div class="col-xs-12 col-md-6 col-lg-3" id="page_bottom1">
-      <?php print render($page['page_bottom1']); ?>
     </div>
 
-    <div class="col-xs-12 col-md-6 col-lg-3" id="page_bottom2">
-      <?php print render($page['page_bottom2']); ?>
-    </div>
+    <div class="row col-lg-12">
 
-    <div class="col-xs-12 col-md-6 col-lg-3" id="page_bottom3">
-      <?php print render($page['page_bottom3']); ?>
-    </div>
+      <div class="col-xs-12 col-md-6 col-lg-3" id="page_bottom1">
+        <?php print render($page['page_bottom1']); ?>
+      </div>
 
-    <div class="col-xs-12 col-md-6 col-lg-3" id="page_bottom4">
-      <?php print render($page['page_bottom4']); ?>
+      <div class="col-xs-12 col-md-6 col-lg-3" id="page_bottom2">
+        <?php print render($page['page_bottom2']); ?>
+      </div>
+
+      <div class="col-xs-12 col-md-6 col-lg-3" id="page_bottom3">
+        <?php print render($page['page_bottom3']); ?>
+      </div>
+
+      <div class="col-xs-12 col-md-6 col-lg-3" id="page_bottom4">
+        <?php print render($page['page_bottom4']); ?>
+      </div>
     </div>
 
   </div>

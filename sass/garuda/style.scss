@@ -2,7 +2,9 @@
 Custom override
 */
 $test-border : 2px solid red;
-
+body.admin-menu.navbar-is-fixed-top{
+  padding-top: 0!important;
+}
 .topbar{
   background-color: #000;
   opacity: 0.5;
@@ -47,6 +49,7 @@ $test-border : 2px solid red;
 }
 .navbar{
   text-transform: none;
+  margin-bottom: 0;
 }
 #navbar{
   ul.menu{
@@ -68,6 +71,7 @@ $test-border : 2px solid red;
 }
 .navbar-full{
   background: url('header-top.jpg') no-repeat;
+  clear: both;
 }
 @media only screen and (max-width: 766px) {
 .collapsing, .in {background-color: #f1de93;padding-left: 5%;}
@@ -83,4 +87,20 @@ $test-border : 2px solid red;
 }
 .menu.nav.navbar-nav.secondary a{
   font-size: 12px;
+}
+
+/*
+Highlighted main
+*/
+.highlighted-main{
+  background: url('sun-cloud.jpg');
+  height: 350px;
+  color: #72491d;
+  text-align: center;
+  font-size: 22px;
+}
+.region-highlighted{
+  p{    margin-top: 10%;
+    line-height: 40px;
+  }
 }
