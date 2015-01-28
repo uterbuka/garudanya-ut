@@ -70,7 +70,7 @@ body.admin-menu.navbar-is-fixed-top{
   padding: 0 5px;
 }
 .navbar-full{
-  background: url('header-top.jpg') no-repeat;
+  background: url('../images/header-top.jpg') no-repeat;
   clear: both;
 }
 @media only screen and (max-width: 766px) {
@@ -93,7 +93,7 @@ body.admin-menu.navbar-is-fixed-top{
 Highlighted main
 */
 .highlighted-main{
-  background: url('sun-cloud.jpg');
+  background: url('../images/sun-cloud.jpg');
   height: 350px;
   color: #72491d;
   text-align: center;
@@ -123,7 +123,7 @@ Page Bottom
       color: #28a9e0;
       text-align: center;
       font-size: 16px;
-      background: url('line-body.png') no-repeat;
+      background: url('../images/line-body.png') no-repeat;
       opacity: 0.5;
       background-position: center;
     }
@@ -217,7 +217,7 @@ Footer Top
 Footer
 */
 .line-foot{
-  background-image: url('line-footer.png');
+  background-image: url('../images/line-footer.png');
   height: 47px;
   background-repeat: no-repeat;
   background-position: center;
