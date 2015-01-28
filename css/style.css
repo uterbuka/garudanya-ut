@@ -156,7 +156,7 @@ Page Bottom
 /* line 130, ../sass/garuda/style.scss */
 #page_bottom1 .region .view, #page_bottom2 .region .view, #page_bottom3 .region .view, #page_bottom4 .region .view {
   position: relative;
-  min-height: 875px;
+  min-height: 870px;
   height: auto;
 }
 /* line 136, ../sass/garuda/style.scss */
@@ -182,4 +182,98 @@ Page Bottom
   color: #fff;
   font-size: 12px;
   text-transform: uppercase;
+}
+
+/*
+Footer Top
+*/
+/* line 165, ../sass/garuda/style.scss */
+.grey-footer {
+  background-color: #353535;
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+/* line 171, ../sass/garuda/style.scss */
+.footer {
+  border: none;
+  padding-bottom: 0;
+}
+/* line 174, ../sass/garuda/style.scss */
+.footer h2.block-title {
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+/* line 181, ../sass/garuda/style.scss */
+#footer_top1 .region-footer-top1 {
+  border-top: 5px solid #d70f81;
+  color: #7b7b7b;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+/* line 189, ../sass/garuda/style.scss */
+#footer_top2 .region-footer-top2 {
+  border-top: 5px solid #fcb315;
+  color: #7b7b7b;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+/* line 197, ../sass/garuda/style.scss */
+#footer_top3 .region-footer-top3 {
+  border-top: 5px solid #32bba6;
+  color: #7b7b7b;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+/* line 205, ../sass/garuda/style.scss */
+#footer_top4 .region-footer-top4 {
+  border-top: 5px solid #f05125;
+  color: #7b7b7b;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+/* line 212, ../sass/garuda/style.scss */
+.block:first-child h2.block-title {
+  margin-top: 10px;
+}
+
+/*
+Footer
+*/
+/* line 219, ../sass/garuda/style.scss */
+.line-foot {
+  background-image: url("line-footer.png");
+  height: 47px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 6% 0;
+}
+/* line 225, ../sass/garuda/style.scss */
+.line-foot img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
+
+/*
+Copyright
+*/
+/* line 236, ../sass/garuda/style.scss */
+#copyright {
+  text-align: center;
+  padding: 30px 0;
+  color: #7b7b7b;
+}
+/* line 240, ../sass/garuda/style.scss */
+#copyright a {
+  font-size: 15px;
+  color: #7b7b7b;
 }

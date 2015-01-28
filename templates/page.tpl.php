@@ -173,36 +173,35 @@
   </div>
 </div>
 
-<footer class="footer container">
-  <div class="row col-lg-12">
+<footer class="container-full grey-footer">
+  <div class="footer container">
 
-    <div class="col-xs-12 col-sm-6" id="footer_top1">
-      <?php print render($page['footer_top1']); ?>
+    <div class="row col-lg-12">
+      <div class="col-xs-12 col-sm-6" id="footer_top1">
+        <?php print render($page['footer_top1']); ?>
+      </div>
+      <div class="col-xs-12 col-sm-6" id="footer_top2">
+        <?php print render($page['footer_top2']); ?>
+      </div>
     </div>
 
-    <div class="col-xs-12 col-sm-6" id="footer_top2">
-      <?php print render($page['footer_top2']); ?>
+    <div class="row col-lg-12">
+      <div class="col-xs-12 col-sm-6" id="footer_top3">
+        <?php print render($page['footer_top3']); ?>
+      </div>
+      <div class="col-xs-12 col-sm-6" id="footer_top4">
+        <?php print render($page['footer_top4']); ?>
+      </div>
     </div>
 
-  </div>
 
-  <div class="row col-lg-12">
-
-    <div class="col-xs-12 col-sm-6" id="footer_top3">
-      <?php print render($page['footer_top3']); ?>
+    <div class="row col-lg-12" id="footer">
+      <div class="col-lg-12 line-foot"></div>
+      <?php print render($page['footer']); ?>
     </div>
 
-    <div class="col-xs-12 col-sm-6" id="footer_top4">
-      <?php print render($page['footer_top4']); ?>
+    <div class="row col-lg-12" id="copyright">
+      <?php print render($page['copyright']); ?>
     </div>
-
-  </div>
-
-  <div class="row col-lg-12" id="footer">
-    <?php print render($page['footer']); ?>
-  </div>
-
-  <div class="row col-lg-12" id="copyright">
-    <?php print render($page['copyright']); ?>
-  </div>
-</footer>
+  </footer>
+</div>
