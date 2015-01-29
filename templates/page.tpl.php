@@ -63,37 +63,56 @@
   <div class="container">
     <div class="row col-lg-12">
 
-      <div class="col-xs-12 col-md-6 col-lg-3" id="page_top1">
-        <?php print render($page['page_top1']); ?>
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <div  id="page_top1">
+          <?php print render($page['page_top1']); ?>
+        </div>
       </div>
 
-      <div class="col-xs-12 col-md-6 col-lg-3" id="page_top2">
-        <?php print render($page['page_top2']); ?>
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <div  id="page_top2">
+          <?php print render($page['page_top2']); ?>
+        </div>
       </div>
 
-      <div class="col-xs-12 col-md-6 col-lg-3" id="page_top3">
-        <?php print render($page['page_top3']); ?>
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <div  id="page_top3">
+          <?php print render($page['page_top3']); ?>
+        </div>
       </div>
 
-      <div class="col-xs-12 col-md-6 col-lg-3" id="page_top4">
-        <?php print render($page['page_top4']); ?>
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <div  id="page_top4">
+          <?php print render($page['page_top4']); ?>
+        </div>
       </div>
     </div>
 
 
     <div class="row col-lg-12">
 
-      <div class="col-sm-4" id="gallery1">
-        <?php print render($page['gallery1']); ?>
-      </div>
+      <?php if(!empty($page['gallery1'])): ?>
+        <aside class="col-sm-4">
+          <div  id="gallery1">
+            <?php print render($page['gallery1']); ?>
+          </div>
+        </aside>
+      <?php endif; ?>
+      <?php if(!empty($page['gallery2'])): ?>
+        <aside class="col-sm-4">
+          <div  id="gallery2">
+            <?php print render($page['gallery2']); ?>
+          </div>
+        </aside>
+      <?php endif; ?>
+      <?php if(!empty($page['gallery3'])): ?>
+        <aside class="col-sm-4">
+          <div  id="gallery3">
+            <?php print render($page['gallery3']); ?>
+          </div>
+        </aside>
+      <?php endif; ?>
 
-      <div class="col-sm-4" id="gallery2">
-        <?php print render($page['gallery2']); ?>
-      </div>
-
-      <div class="col-sm-4" id="gallery3">
-        <?php print render($page['gallery3']); ?>
-      </div>
     </div>
 
     <?php if (!empty($page['help'])): ?>
@@ -147,7 +166,7 @@
 
       <?php if (!empty($page['page_bottom2'])): ?>
       <aside class="col-xs-12 col-md-6 col-lg-3">
-        <div id="page_bottom1">
+        <div id="page_bottom2">
           <?php print render($page['page_bottom2']); ?>
         </div>
       </aside>
@@ -155,7 +174,7 @@
 
       <?php if (!empty($page['page_bottom3'])): ?>
       <aside class="col-xs-12 col-md-6 col-lg-3">
-        <div id="page_bottom1">
+        <div id="page_bottom3">
           <?php print render($page['page_bottom3']); ?>
         </div>
       </aside>
@@ -163,7 +182,7 @@
 
       <?php if (!empty($page['page_bottom4'])): ?>
       <aside class="col-xs-12 col-md-6 col-lg-3">
-        <div id="page_bottom1">
+        <div id="page_bottom4">
           <?php print render($page['page_bottom4']); ?>
         </div>
       </aside>
