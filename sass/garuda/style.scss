@@ -120,6 +120,9 @@ Page Top
   }
   .block-image{
     padding: 10px 0;
+    img{
+      height: 95px;
+    }
   }
 }
 #page_top2{
@@ -131,6 +134,9 @@ Page Top
   }
   .block-image{
     padding: 10px 0;
+    img{
+      height: 95px;
+    }
   }
 }
 #page_top3{
@@ -142,6 +148,9 @@ Page Top
   }
   .block-image{
     padding: 10px 0;
+    img{
+      height: 95px;
+    }
   }
 }
 #page_top4{
@@ -153,6 +162,9 @@ Page Top
   }
   .block-image{
     padding: 10px 0;
+    img{
+      height: 95px;
+    }
   }
 }
 
@@ -168,9 +180,9 @@ Gallery
   /*-moz-box-shadow:    1px 1px 8px 5px #ccc;
   -webkit-box-shadow: 1px 1px 8px 5px #ccc;
   box-shadow:         1px 1px 8px 5px #ccc;*/
-  height: auto;
+  /*height: auto;
   min-height: 520px;
-  h2.block-title{
+*/  h2.block-title{
     color: #7e7e7e;
     font-size: 25px;
   }
@@ -180,10 +192,10 @@ Gallery
   .block.block-views{
     margin: 0 15px;
     position: relative;
+    height: auto;
+    min-height: 350px;
     .view-content{
       text-align: left;
-      height: auto;
-      min-height: 300px;
       text-align: justify;
       .views-row{
         margin: 15px 0;
@@ -213,8 +225,8 @@ Gallery
   /*-moz-box-shadow:    1px 1px 8px 5px #ccc;
   -webkit-box-shadow: 1px 1px 8px 5px #ccc;
   box-shadow:         1px 1px 8px 5px #ccc;*/
-  height: auto;
-  min-height: 520px;
+  /*height: auto;
+  min-height: 520px;*/
   h2.block-title{
     color: #7e7e7e;
     font-size: 25px;
@@ -223,10 +235,13 @@ Gallery
     padding: 10px 0;
   }
   .block.block-views{
-    margin: 15px;
+    margin: 3px 15px;
+    height: auto;
+    min-height: 350px;
     .view-content{
-      height: auto;
-      min-height: 300px;
+      padding-bottom: 15%;
+      /*height: auto;
+      min-height: 300px;*/
       table.views-view-grid{
         margin-right: auto;
         margin-left: auto;
@@ -256,9 +271,9 @@ Gallery
   /*-moz-box-shadow:    1px 1px 8px 5px #ccc;
   -webkit-box-shadow: 1px 1px 8px 5px #ccc;
   box-shadow:         1px 1px 8px 5px #ccc;*/
-  height: auto;
+  /*height: auto;
   min-height: 520px;
-  h2.block-title{
+*/  h2.block-title{
     color: #7e7e7e;
     font-size: 25px;
   }
@@ -266,10 +281,12 @@ Gallery
     padding: 10px 0;
   }
   .block.block-views{
-    margin: 15px;
+    margin: 5px;
+    height: auto;
+    min-height: 350px;
     .view-content{
-      height: auto;
-      min-height: 300px;
+      /*height: auto;
+      min-height: 300px;*/
     }
     .more-link{
       background-color: #ec2727;
@@ -310,8 +327,8 @@ Page Bottom
   box-shadow:         1px 1px 10px 2px #ccc;*/
   padding: 10px;
   font-size: 12px;
-  height: auto;
-  min-height: 930px;
+  /*height: auto;
+  min-height: 930px;*/
   .region{
     h2.block-title{
       color: #28a9e0;
@@ -352,21 +369,29 @@ Page Bottom
     }
   }
   .more-link{
-        background-color: #ec2727;
-        padding: 5px;
-        right: 0;
-        margin: 10px 0;
-        /*position: absolute;*/
-        float: right;
-        bottom: 0;
-        a{
-          color: #fff;
-          font-size: 12px;
-          text-transform: uppercase;
-        }
-      }
+    background-color: #ec2727;
+    padding: 5px;
+    right: 0;
+    margin: 10px 0;
+    /*position: absolute;*/
+    float: right;
+    bottom: 0;
+    a{
+      color: #fff;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+  }
 }
-
+#page_bottom1{
+  .block.block-block{
+    height: auto;
+    min-height: 908px;
+    .block-title{
+      margin-bottom: 55px;
+    }
+  }
+}
 /*
 Footer Top
 */
@@ -444,6 +469,13 @@ Footer
     display: inline-block;
     padding: 0 5px;
     height: 32px;
+  }
+}
+#footer{
+  .region-footer{
+    img{
+      height: 32px;
+    }
   }
 }
 /*
