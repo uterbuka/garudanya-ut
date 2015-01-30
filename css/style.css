@@ -1,12 +1,15 @@
 /*
 Custom override
 */
-/* line 6, ../sass/garuda/style.scss */
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro:400,900,500);
+/* line 11, ../sass/garuda/style.scss */
 body.admin-menu.navbar-is-fixed-top {
   padding-top: 0 !important;
 }
 
-/* line 9, ../sass/garuda/style.scss */
+/* line 14, ../sass/garuda/style.scss */
 .topbar {
   background-color: #000;
   opacity: 0.5;
@@ -16,92 +19,93 @@ body.admin-menu.navbar-is-fixed-top {
   padding: 4px 0;
 }
 
-/* line 17, ../sass/garuda/style.scss */
+/* line 22, ../sass/garuda/style.scss */
+.font-nav-secondary, .menu.nav.navbar-nav.secondary li.first a, .menu.nav.navbar-nav.secondary li.last a {
+  padding: 0 5px;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* line 29, ../sass/garuda/style.scss */
 .menu.nav.navbar-nav.secondary {
   display: inline-flex;
 }
-/* line 19, ../sass/garuda/style.scss */
-.menu.nav.navbar-nav.secondary li.first a {
-  padding: 0 5px;
-  color: #fff;
-}
-/* line 25, ../sass/garuda/style.scss */
-.menu.nav.navbar-nav.secondary li.last a {
-  padding: 0 5px;
-  color: #fff;
-}
 
-/* line 31, ../sass/garuda/style.scss */
+/* line 42, ../sass/garuda/style.scss */
 .text-top {
-  color: #fff;
+  color: #ffffff;
   font-size: 13px;
 }
 
-/* line 36, ../sass/garuda/style.scss */
+/* line 47, ../sass/garuda/style.scss */
 .navbar-collapse.collapse ul.menu {
   padding-left: 5%;
 }
-/* line 39, ../sass/garuda/style.scss */
+/* line 50, ../sass/garuda/style.scss */
 .navbar-collapse.collapse ul.menu li a {
   color: #fff;
-  font-size: 15px;
+  font-size: 18px;
   text-transform: uppercase;
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
 }
-/* line 44, ../sass/garuda/style.scss */
+/* line 56, ../sass/garuda/style.scss */
 .navbar-collapse.collapse ul.menu li a:hover {
   color: #f3b53d;
 }
 
-/* line 51, ../sass/garuda/style.scss */
+/* line 63, ../sass/garuda/style.scss */
 .navbar {
   background: url("../images/header-top.jpg") no-repeat;
   text-transform: none;
   margin-bottom: 0;
 }
 
-/* line 59, ../sass/garuda/style.scss */
+/* line 71, ../sass/garuda/style.scss */
 #navbar ul.menu li a {
   color: #fff;
-  font-size: 15px;
+  font-size: 18px;
   text-transform: uppercase;
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
 }
-/* line 64, ../sass/garuda/style.scss */
+/* line 77, ../sass/garuda/style.scss */
 #navbar ul.menu li a:hover {
   color: #f3b53d;
 }
 
-/* line 71, ../sass/garuda/style.scss */
+/* line 84, ../sass/garuda/style.scss */
 .navbar-header img {
   padding: 0 5px;
 }
 
 @media only screen and (max-width: 766px) {
-  /* line 75, ../sass/garuda/style.scss */
+  /* line 88, ../sass/garuda/style.scss */
   .collapsing, .in {
     background-color: #f1de93;
     padding-left: 5%;
   }
 
-  /* line 76, ../sass/garuda/style.scss */
+  /* line 89, ../sass/garuda/style.scss */
   .collapsing ul li a, .in ul li a {
     color: #ffffff !important;
     padding-left: 5%;
   }
 
-  /* line 77, ../sass/garuda/style.scss */
+  /* line 90, ../sass/garuda/style.scss */
   .collapsing ul li a:hover, .in ul li a:hover {
     color: #f3b53d !important;
   }
 }
-/* line 81, ../sass/garuda/style.scss */
+/* line 94, ../sass/garuda/style.scss */
 .region.region-header p {
   font-size: 12px;
   color: #fff;
 }
 
-/* line 86, ../sass/garuda/style.scss */
+/* line 99, ../sass/garuda/style.scss */
 .menu.nav.navbar-nav.secondary a {
   font-size: 12px;
 }
@@ -109,17 +113,18 @@ body.admin-menu.navbar-is-fixed-top {
 /*
 Highlighted main
 */
-/* line 93, ../sass/garuda/style.scss */
+/* line 106, ../sass/garuda/style.scss */
 .highlighted-main {
   background: url("../images/sun-cloud.jpg");
   height: 350px;
   color: #72491d;
   text-align: center;
-  font-size: 22px;
+  font-size: 24px;
   margin-top: 100px;
+  font-family: 'Maven Pro', sans-serif;
 }
 
-/* line 102, ../sass/garuda/style.scss */
+/* line 116, ../sass/garuda/style.scss */
 .region-highlighted p {
   margin-top: 10%;
   line-height: 40px;
@@ -128,91 +133,78 @@ Highlighted main
 /*
 Page Top
 */
-/* line 111, ../sass/garuda/style.scss */
+/* line 125, ../sass/garuda/style.scss */
 .main-container {
   background-color: #f4f4f4;
 }
 
-/* line 114, ../sass/garuda/style.scss */
-#page_top1 {
-  background-color: #f3b53d;
-  text-align: center;
-}
-/* line 117, ../sass/garuda/style.scss */
-#page_top1 h2.block-title {
-  color: #ffffff;
-  font-size: 20px;
-}
-/* line 121, ../sass/garuda/style.scss */
-#page_top1 .block-image {
-  padding: 10px 0;
-}
-/* line 123, ../sass/garuda/style.scss */
-#page_top1 .block-image img {
-  height: 95px;
-}
-
 /* line 128, ../sass/garuda/style.scss */
-#page_top2 {
-  background-color: #d70f81;
+.page_top_style, #page_top1, #page_top2, #page_top3, #page_top4 {
   text-align: center;
 }
-/* line 131, ../sass/garuda/style.scss */
-#page_top2 h2.block-title {
+/* line 130, ../sass/garuda/style.scss */
+.page_top_style h2.block-title, #page_top1 h2.block-title, #page_top2 h2.block-title, #page_top3 h2.block-title, #page_top4 h2.block-title {
   color: #ffffff;
   font-size: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 /* line 135, ../sass/garuda/style.scss */
-#page_top2 .block-image {
+.page_top_style .block-image, #page_top1 .block-image, #page_top2 .block-image, #page_top3 .block-image, #page_top4 .block-image {
   padding: 10px 0;
 }
 /* line 137, ../sass/garuda/style.scss */
-#page_top2 .block-image img {
+.page_top_style .block-image img, #page_top1 .block-image img, #page_top2 .block-image img, #page_top3 .block-image img, #page_top4 .block-image img {
   height: 95px;
 }
 
 /* line 142, ../sass/garuda/style.scss */
-#page_top3 {
-  background-color: #32bba6;
-  text-align: center;
-}
-/* line 145, ../sass/garuda/style.scss */
-#page_top3 h2.block-title {
-  color: #ffffff;
-  font-size: 20px;
-}
-/* line 149, ../sass/garuda/style.scss */
-#page_top3 .block-image {
-  padding: 10px 0;
-}
-/* line 151, ../sass/garuda/style.scss */
-#page_top3 .block-image img {
-  height: 95px;
+#page_top1 {
+  background-color: #f3b53d;
 }
 
-/* line 156, ../sass/garuda/style.scss */
+/* line 147, ../sass/garuda/style.scss */
+#page_top2 {
+  background-color: #d70f81;
+}
+
+/* line 152, ../sass/garuda/style.scss */
+#page_top3 {
+  background-color: #32bba6;
+}
+
+/* line 157, ../sass/garuda/style.scss */
 #page_top4 {
   background-color: #f05125;
-  text-align: center;
-}
-/* line 159, ../sass/garuda/style.scss */
-#page_top4 h2.block-title {
-  color: #ffffff;
-  font-size: 20px;
-}
-/* line 163, ../sass/garuda/style.scss */
-#page_top4 .block-image {
-  padding: 10px 0;
-}
-/* line 165, ../sass/garuda/style.scss */
-#page_top4 .block-image img {
-  height: 95px;
 }
 
 /*
 Gallery
 */
-/* line 174, ../sass/garuda/style.scss */
+/* line 165, ../sass/garuda/style.scss */
+.linked, #gallery1 .block.block-views .more-link, #gallery2 .block.block-views .more-link, #gallery3 .block.block-views .more-link, #page_bottom1 .region .view.view-article-block .more-link, #page_bottom2 .region .view.view-article-block .more-link, #page_bottom3 .region .view.view-article-block .more-link, #page_bottom4 .region .view.view-article-block .more-link, #page_bottom1 .more-link, #page_bottom2 .more-link, #page_bottom3 .more-link, #page_bottom4 .more-link {
+  background-color: #ec2727;
+  padding: 5px;
+  right: 0;
+  margin: 10px 0;
+  float: right;
+  bottom: 0;
+}
+/* line 172, ../sass/garuda/style.scss */
+.linked a, #gallery1 .block.block-views .more-link a, #gallery2 .block.block-views .more-link a, #gallery3 .block.block-views .more-link a, #page_bottom1 .region .view.view-article-block .more-link a, #page_bottom2 .region .view.view-article-block .more-link a, #page_bottom3 .region .view.view-article-block .more-link a, #page_bottom4 .region .view.view-article-block .more-link a, #page_bottom1 .more-link a, #page_bottom2 .more-link a, #page_bottom3 .more-link a, #page_bottom4 .more-link a {
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 179, ../sass/garuda/style.scss */
+.block-title-gallery, #gallery1 h2.block-title, #gallery2 h2.block-title, #gallery3 h2.block-title {
+  font-family: 'Roboto', sans-serif;
+  color: #7e7e7e;
+  font-size: 25px;
+}
+
+/* line 184, ../sass/garuda/style.scss */
 #gallery1 {
   margin: 30px 0;
   border-top: 10px solid #32bba6;
@@ -221,55 +213,36 @@ Gallery
   -moz-box-shadow: rgba(128, 128, 128, 0.2) 1px 1px 8px 5px;
   -webkit-box-shadow: rgba(128, 128, 128, 0.2) 1px 1px 8px 5px;
   box-shadow: rgba(128, 128, 128, 0.2) 1px 1px 8px 5px;
-  /*-moz-box-shadow:    1px 1px 8px 5px #ccc;
-  -webkit-box-shadow: 1px 1px 8px 5px #ccc;
-  box-shadow:         1px 1px 8px 5px #ccc;*/
-  /*height: auto;
-  min-height: 520px;
-*/
 }
-/* line 185, ../sass/garuda/style.scss */
-#gallery1 h2.block-title {
-  color: #7e7e7e;
-  font-size: 25px;
-}
-/* line 189, ../sass/garuda/style.scss */
+/* line 193, ../sass/garuda/style.scss */
 #gallery1 .block-image {
   padding: 10px 0;
 }
-/* line 192, ../sass/garuda/style.scss */
+/* line 196, ../sass/garuda/style.scss */
 #gallery1 .block.block-views {
   margin: 0 15px;
   position: relative;
   height: auto;
   min-height: 350px;
 }
-/* line 197, ../sass/garuda/style.scss */
+/* line 201, ../sass/garuda/style.scss */
 #gallery1 .block.block-views .view-content {
-  text-align: left;
   text-align: justify;
 }
-/* line 200, ../sass/garuda/style.scss */
+/* line 203, ../sass/garuda/style.scss */
 #gallery1 .block.block-views .view-content .views-row {
   margin: 15px 0;
 }
 /* line 204, ../sass/garuda/style.scss */
-#gallery1 .block.block-views .more-link {
-  background-color: #ec2727;
-  padding: 5px;
-  right: 0;
-  margin: 10px 0;
-  float: right;
-  bottom: 0;
+#gallery1 .block.block-views .view-content .views-row .views-field-title {
+  font-family: 'Open Sans', sans-serif;
 }
-/* line 211, ../sass/garuda/style.scss */
-#gallery1 .block.block-views .more-link a {
-  color: #fff;
-  font-size: 12px;
-  text-transform: uppercase;
+/* line 207, ../sass/garuda/style.scss */
+#gallery1 .block.block-views .view-content .views-row .views-field-body {
+  font-family: 'Roboto', sans-serif;
 }
 
-/* line 219, ../sass/garuda/style.scss */
+/* line 218, ../sass/garuda/style.scss */
 #gallery2 {
   margin: 30px 0;
   border-top: 10px solid #d70f81;
@@ -278,55 +251,28 @@ Gallery
   -moz-box-shadow: rgba(128, 128, 128, 0.2) 1px 1px 8px 5px;
   -webkit-box-shadow: rgba(128, 128, 128, 0.2) 1px 1px 8px 5px;
   box-shadow: rgba(128, 128, 128, 0.2) 1px 1px 8px 5px;
-  /*-moz-box-shadow:    1px 1px 8px 5px #ccc;
-  -webkit-box-shadow: 1px 1px 8px 5px #ccc;
-  box-shadow:         1px 1px 8px 5px #ccc;*/
-  /*height: auto;
-  min-height: 520px;*/
 }
-/* line 230, ../sass/garuda/style.scss */
-#gallery2 h2.block-title {
-  color: #7e7e7e;
-  font-size: 25px;
-}
-/* line 234, ../sass/garuda/style.scss */
+/* line 227, ../sass/garuda/style.scss */
 #gallery2 .block-image {
   padding: 10px 0;
 }
-/* line 237, ../sass/garuda/style.scss */
+/* line 230, ../sass/garuda/style.scss */
 #gallery2 .block.block-views {
   margin: 3px 15px;
   height: auto;
   min-height: 350px;
 }
-/* line 241, ../sass/garuda/style.scss */
+/* line 234, ../sass/garuda/style.scss */
 #gallery2 .block.block-views .view-content {
   padding-bottom: 15%;
-  /*height: auto;
-  min-height: 300px;*/
 }
-/* line 245, ../sass/garuda/style.scss */
+/* line 236, ../sass/garuda/style.scss */
 #gallery2 .block.block-views .view-content table.views-view-grid {
   margin-right: auto;
   margin-left: auto;
 }
-/* line 250, ../sass/garuda/style.scss */
-#gallery2 .block.block-views .more-link {
-  background-color: #ec2727;
-  padding: 5px;
-  right: 0;
-  margin: 10px 0;
-  float: right;
-  bottom: 0;
-}
-/* line 257, ../sass/garuda/style.scss */
-#gallery2 .block.block-views .more-link a {
-  color: #fff;
-  font-size: 12px;
-  text-transform: uppercase;
-}
 
-/* line 265, ../sass/garuda/style.scss */
+/* line 246, ../sass/garuda/style.scss */
 #gallery3 {
   margin: 30px 0;
   border-top: 10px solid #f05125;
@@ -335,80 +281,82 @@ Gallery
   -moz-box-shadow: rgba(128, 128, 128, 0.2) 1px 1px 8px 5px;
   -webkit-box-shadow: rgba(128, 128, 128, 0.2) 1px 1px 8px 5px;
   box-shadow: rgba(128, 128, 128, 0.2) 1px 1px 8px 5px;
-  /*-moz-box-shadow:    1px 1px 8px 5px #ccc;
-  -webkit-box-shadow: 1px 1px 8px 5px #ccc;
-  box-shadow:         1px 1px 8px 5px #ccc;*/
-  /*height: auto;
-  min-height: 520px;
-*/
 }
-/* line 276, ../sass/garuda/style.scss */
-#gallery3 h2.block-title {
-  color: #7e7e7e;
-  font-size: 25px;
-}
-/* line 280, ../sass/garuda/style.scss */
+/* line 255, ../sass/garuda/style.scss */
 #gallery3 .block-image {
   padding: 10px 0;
 }
-/* line 283, ../sass/garuda/style.scss */
+/* line 258, ../sass/garuda/style.scss */
 #gallery3 .block.block-views {
   margin: 5px;
   height: auto;
   min-height: 350px;
 }
-/* line 287, ../sass/garuda/style.scss */
-#gallery3 .block.block-views .view-content {
-  /*height: auto;
-  min-height: 300px;*/
-}
-/* line 291, ../sass/garuda/style.scss */
-#gallery3 .block.block-views .more-link {
-  background-color: #ec2727;
-  padding: 5px;
-  right: 0;
-  margin: 10px 0;
-  float: right;
-  bottom: 0;
-}
-/* line 298, ../sass/garuda/style.scss */
-#gallery3 .block.block-views .more-link a {
-  color: #fff;
-  font-size: 12px;
-  text-transform: uppercase;
-}
-/* line 305, ../sass/garuda/style.scss */
+/* line 266, ../sass/garuda/style.scss */
 #gallery3 .block.block-views .view-content .views-field-field-image {
   margin-bottom: 15px;
 }
-/* line 308, ../sass/garuda/style.scss */
+/* line 269, ../sass/garuda/style.scss */
 #gallery3 .block.block-views .view-content .views-field-title {
   text-align: left;
+  font-family: 'Open Sans', sans-serif;
 }
-/* line 311, ../sass/garuda/style.scss */
+/* line 273, ../sass/garuda/style.scss */
 #gallery3 .block.block-views .view-content .views-field-body {
   text-align: left;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 281, ../sass/garuda/style.scss */
+.submitted {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*
+Main Content
+*/
+/* line 289, ../sass/garuda/style.scss */
+.region-sidebar-first #block-system-navigation h2.block-title {
+  font-family: 'Roboto', sans-serif;
+}
+/* line 292, ../sass/garuda/style.scss */
+.region-sidebar-first #block-system-navigation ul.menu.nav a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 297, ../sass/garuda/style.scss */
+.region-content {
+  /*
+  Pager
+  */
+}
+/* line 298, ../sass/garuda/style.scss */
+.region-content h2 a {
+  font-family: 'Roboto', sans-serif;
+}
+/* line 301, ../sass/garuda/style.scss */
+.region-content .content, .region-content ul.links li a {
+  font-family: 'Open Sans', sans-serif;
+}
+/* line 307, ../sass/garuda/style.scss */
+.region-content .text-center ul.pagination li a {
+  font-family: 'Open Sans', sans-serif;
 }
 
 /*
 Page Bottom
 */
-/* line 321, ../sass/garuda/style.scss */
+/* line 316, ../sass/garuda/style.scss */
 #page_bottom1, #page_bottom2, #page_bottom3, #page_bottom4 {
   border-top: 5px solid #28a9e0;
   background-color: #fff;
   -moz-box-shadow: rgba(128, 128, 128, 0.2) 1px 1px 8px 5px;
   -webkit-box-shadow: rgba(128, 128, 128, 0.2) 1px 1px 8px 5px;
   box-shadow: rgba(128, 128, 128, 0.2) 1px 1px 8px 5px;
-  /*-moz-box-shadow:    1px 1px 10px 2px #ccc;
-  -webkit-box-shadow: 1px 1px 10px 2px #ccc;
-  box-shadow:         1px 1px 10px 2px #ccc;*/
   padding: 10px;
   font-size: 12px;
-  /*height: auto;
-  min-height: 930px;*/
 }
-/* line 333, ../sass/garuda/style.scss */
+/* line 323, ../sass/garuda/style.scss */
 #page_bottom1 .region h2.block-title, #page_bottom2 .region h2.block-title, #page_bottom3 .region h2.block-title, #page_bottom4 .region h2.block-title {
   color: #28a9e0;
   text-align: center;
@@ -416,63 +364,37 @@ Page Bottom
   background: url("../images/line-body.png") no-repeat;
   opacity: 0.5;
   background-position: center;
+  font-family: 'Roboto', sans-serif;
 }
-/* line 341, ../sass/garuda/style.scss */
+/* line 332, ../sass/garuda/style.scss */
 #page_bottom1 .region .view.view-article-block, #page_bottom2 .region .view.view-article-block, #page_bottom3 .region .view.view-article-block, #page_bottom4 .region .view.view-article-block {
   position: relative;
 }
-/* line 343, ../sass/garuda/style.scss */
+/* line 334, ../sass/garuda/style.scss */
 #page_bottom1 .region .view.view-article-block .view-content, #page_bottom2 .region .view.view-article-block .view-content, #page_bottom3 .region .view.view-article-block .view-content, #page_bottom4 .region .view.view-article-block .view-content {
   min-height: 870px;
   height: auto;
 }
-/* line 347, ../sass/garuda/style.scss */
+/* line 338, ../sass/garuda/style.scss */
 #page_bottom1 .region .view.view-article-block .view-content h2 a, #page_bottom2 .region .view.view-article-block .view-content h2 a, #page_bottom3 .region .view.view-article-block .view-content h2 a, #page_bottom4 .region .view.view-article-block .view-content h2 a {
   color: #2980b9;
   font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 10;
 }
-/* line 352, ../sass/garuda/style.scss */
+/* line 345, ../sass/garuda/style.scss */
 #page_bottom1 .region .view.view-article-block .view-content .content, #page_bottom2 .region .view.view-article-block .view-content .content, #page_bottom3 .region .view.view-article-block .view-content .content, #page_bottom4 .region .view.view-article-block .view-content .content {
   text-align: justify;
-}
-/* line 356, ../sass/garuda/style.scss */
-#page_bottom1 .region .view.view-article-block .more-link, #page_bottom2 .region .view.view-article-block .more-link, #page_bottom3 .region .view.view-article-block .more-link, #page_bottom4 .region .view.view-article-block .more-link {
-  background-color: #ec2727;
-  padding: 5px;
-  right: 0;
-  margin: 10px 0;
-  position: absolute;
-  bottom: 0;
-}
-/* line 363, ../sass/garuda/style.scss */
-#page_bottom1 .region .view.view-article-block .more-link a, #page_bottom2 .region .view.view-article-block .more-link a, #page_bottom3 .region .view.view-article-block .more-link a, #page_bottom4 .region .view.view-article-block .more-link a {
-  color: #fff;
-  font-size: 12px;
-  text-transform: uppercase;
-}
-/* line 371, ../sass/garuda/style.scss */
-#page_bottom1 .more-link, #page_bottom2 .more-link, #page_bottom3 .more-link, #page_bottom4 .more-link {
-  background-color: #ec2727;
-  padding: 5px;
-  right: 0;
-  margin: 10px 0;
-  /*position: absolute;*/
-  float: right;
-  bottom: 0;
-}
-/* line 379, ../sass/garuda/style.scss */
-#page_bottom1 .more-link a, #page_bottom2 .more-link a, #page_bottom3 .more-link a, #page_bottom4 .more-link a {
-  color: #fff;
-  font-size: 12px;
-  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
 }
 
-/* line 387, ../sass/garuda/style.scss */
+/* line 360, ../sass/garuda/style.scss */
 #page_bottom1 .block.block-block {
   height: auto;
-  min-height: 908px;
+  min-height: 955px;
+  font-family: 'Open Sans', sans-serif;
 }
-/* line 390, ../sass/garuda/style.scss */
+/* line 364, ../sass/garuda/style.scss */
 #page_bottom1 .block.block-block .block-title {
   margin-bottom: 55px;
 }
@@ -480,63 +402,57 @@ Page Bottom
 /*
 Footer Top
 */
-/* line 398, ../sass/garuda/style.scss */
+/* line 372, ../sass/garuda/style.scss */
 .grey-footer {
   background-color: #353535;
   -moz-box-shadow: black 0 0 10px inset;
   -webkit-box-shadow: black 0 0 10px inset;
   box-shadow: black 0 0 10px inset;
-  /*-moz-box-shadow:    inset 0 0 10px #000000;
-  -webkit-box-shadow: inset 0 0 10px #000000;
-  box-shadow:         inset 0 0 10px #000000;
-*/
 }
 
-/* line 405, ../sass/garuda/style.scss */
+/* line 376, ../sass/garuda/style.scss */
 .footer {
   border: none;
   padding-bottom: 0;
 }
-/* line 408, ../sass/garuda/style.scss */
+/* line 379, ../sass/garuda/style.scss */
 .footer h2.block-title {
   font-size: 18px;
   color: #ffffff;
   margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
 }
 
-/* line 415, ../sass/garuda/style.scss */
+/* line 386, ../sass/garuda/style.scss */
+.footer_top, #footer_top1 .region-footer-top1, #footer_top2 .region-footer-top2, #footer_top3 .region-footer-top3, #footer_top4 .region-footer-top4 {
+  color: #7b7b7b;
+  margin-top: 10px;
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+/* line 394, ../sass/garuda/style.scss */
 #footer_top1 .region-footer-top1 {
   border-top: 5px solid #d70f81;
-  color: #7b7b7b;
-  margin-top: 10px;
-  text-align: justify;
 }
 
-/* line 423, ../sass/garuda/style.scss */
+/* line 400, ../sass/garuda/style.scss */
 #footer_top2 .region-footer-top2 {
   border-top: 5px solid #fcb315;
-  color: #7b7b7b;
-  margin-top: 10px;
-  text-align: justify;
 }
 
-/* line 431, ../sass/garuda/style.scss */
+/* line 406, ../sass/garuda/style.scss */
 #footer_top3 .region-footer-top3 {
   border-top: 5px solid #32bba6;
-  color: #7b7b7b;
-  margin-top: 10px;
-  text-align: justify;
 }
 
-/* line 439, ../sass/garuda/style.scss */
+/* line 412, ../sass/garuda/style.scss */
 #footer_top4 .region-footer-top4 {
   border-top: 5px solid #f05125;
-  color: #7b7b7b;
-  margin-top: 10px;
-  text-align: justify;
 }
 
-/* line 446, ../sass/garuda/style.scss */
+/* line 417, ../sass/garuda/style.scss */
 .block:first-child h2.block-title {
   margin-top: 10px;
 }
@@ -544,7 +460,7 @@ Footer Top
 /*
 Footer
 */
-/* line 453, ../sass/garuda/style.scss */
+/* line 424, ../sass/garuda/style.scss */
 .line-foot {
   background-image: url("../images/line-footer.png");
   height: 47px;
@@ -552,7 +468,7 @@ Footer
   background-position: center;
   padding: 6% 0;
 }
-/* line 459, ../sass/garuda/style.scss */
+/* line 430, ../sass/garuda/style.scss */
 .line-foot img {
   margin-left: auto;
   margin-right: auto;
@@ -560,18 +476,18 @@ Footer
   text-align: center;
 }
 
-/* line 466, ../sass/garuda/style.scss */
+/* line 437, ../sass/garuda/style.scss */
 .region-footer {
   text-align: center;
 }
-/* line 468, ../sass/garuda/style.scss */
+/* line 439, ../sass/garuda/style.scss */
 .region-footer .block-imageblock {
   display: inline-block;
   padding: 0 5px;
   height: 32px;
 }
 
-/* line 476, ../sass/garuda/style.scss */
+/* line 447, ../sass/garuda/style.scss */
 #footer .region-footer img {
   height: 32px;
 }
@@ -579,13 +495,14 @@ Footer
 /*
 Copyright
 */
-/* line 484, ../sass/garuda/style.scss */
+/* line 456, ../sass/garuda/style.scss */
 #copyright {
   text-align: center;
   padding: 30px 0;
   color: #7b7b7b;
+  font-family: 'Open Sans', sans-serif;
 }
-/* line 488, ../sass/garuda/style.scss */
+/* line 461, ../sass/garuda/style.scss */
 #copyright a {
   font-size: 15px;
   color: #7b7b7b;
