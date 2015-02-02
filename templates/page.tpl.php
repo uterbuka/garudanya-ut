@@ -7,10 +7,10 @@
 
 <header role="banner" class="<?php print $navbar_classes; ?>">
   <div class="container-full topbar">
-    <div class="col-sm-10" id="header">
+    <div class="col-sm-10 col-xs-8" id="header">
       <marquee direction="left"><?php print render($page['header']); ?></marquee>
     </div>
-    <div class="col-sm-2">
+    <div class="col-sm-2 col-xs-4">
       <?php if (!empty($secondary_nav)): ?>
         <?php print render($secondary_nav); ?>
       <?php endif; ?>
@@ -63,25 +63,25 @@
   <div class="container">
     <div class="row col-lg-12">
 
-      <div class="col-xs-12 col-md-6 col-lg-3">
+      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
         <div  id="page_top1">
           <?php print render($page['page_top1']); ?>
         </div>
       </div>
 
-      <div class="col-xs-12 col-md-6 col-lg-3">
+      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
         <div  id="page_top2">
           <?php print render($page['page_top2']); ?>
         </div>
       </div>
 
-      <div class="col-xs-12 col-md-6 col-lg-3">
+      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
         <div  id="page_top3">
           <?php print render($page['page_top3']); ?>
         </div>
       </div>
 
-      <div class="col-xs-12 col-md-6 col-lg-3">
+      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
         <div  id="page_top4">
           <?php print render($page['page_top4']); ?>
         </div>
