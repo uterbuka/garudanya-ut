@@ -51,70 +51,13 @@
   </div>
 </header>
 
-<div class="container-full highlighted-main">
-  <div class="col-lg-12">
-    <?php if (!empty($page['highlighted'])): ?>
-      <div class="highlighted"><?php print render($page['highlighted']); ?></div>
-    <?php endif; ?>
-  </div>
-</div>
+
 
 <div class="main-container container-full">
   <div class="container">
     <div class="row col-lg-12">
 
-      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-        <div  id="page_top1">
-          <?php print render($page['page_top1']); ?>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-        <div  id="page_top2">
-          <?php print render($page['page_top2']); ?>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-        <div  id="page_top3">
-          <?php print render($page['page_top3']); ?>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-        <div  id="page_top4">
-          <?php print render($page['page_top4']); ?>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="row col-lg-12">
-
-      <?php if(!empty($page['gallery1'])): ?>
-        <aside class="col-sm-4">
-          <div  id="gallery1">
-            <?php print render($page['gallery1']); ?>
-          </div>
-        </aside>
-      <?php endif; ?>
-      <?php if(!empty($page['gallery2'])): ?>
-        <aside class="col-sm-4">
-          <div  id="gallery2">
-            <?php print render($page['gallery2']); ?>
-          </div>
-        </aside>
-      <?php endif; ?>
-      <?php if(!empty($page['gallery3'])): ?>
-        <aside class="col-sm-4">
-          <div  id="gallery3">
-            <?php print render($page['gallery3']); ?>
-          </div>
-        </aside>
-      <?php endif; ?>
-
-    </div>
-
+   
     <?php if (!empty($page['help'])): ?>
       <div class="row col-lg-12" id="help">
         <?php print render($page['help']); ?>
@@ -154,67 +97,9 @@
       <?php endif; ?>
     </div>
 
-    <div class="row col-lg-12">
-
-      <?php if (!empty($page['page_bottom1'])): ?>
-      <aside class="col-xs-12 col-md-6 col-lg-3">
-        <div id="page_bottom1">
-          <?php print render($page['page_bottom1']); ?>
-        </div>
-      </aside>
-      <?php endif; ?>
-
-      <?php if (!empty($page['page_bottom2'])): ?>
-      <aside class="col-xs-12 col-md-6 col-lg-3">
-        <div id="page_bottom2">
-          <?php print render($page['page_bottom2']); ?>
-        </div>
-      </aside>
-      <?php endif; ?>
-
-      <?php if (!empty($page['page_bottom3'])): ?>
-      <aside class="col-xs-12 col-md-6 col-lg-3">
-        <div id="page_bottom3">
-          <?php print render($page['page_bottom3']); ?>
-        </div>
-      </aside>
-      <?php endif; ?>
-
-      <?php if (!empty($page['page_bottom4'])): ?>
-      <aside class="col-xs-12 col-md-6 col-lg-3">
-        <div id="page_bottom4">
-          <?php print render($page['page_bottom4']); ?>
-        </div>
-      </aside>
-      <?php endif; ?>
-    </div>
-
-  </div>
-</div>
-
-<footer class="container-full grey-footer">
   <div class="footer container">
 
-    <div class="row col-lg-12">
-      <div class="col-xs-12 col-sm-6" id="footer_top1">
-        <?php print render($page['footer_top1']); ?>
-      </div>
-      <div class="col-xs-12 col-sm-6" id="footer_top2">
-        <?php print render($page['footer_top2']); ?>
-      </div>
-    </div>
-
-    <div class="row col-lg-12">
-      <div class="col-xs-12 col-sm-6" id="footer_top3">
-        <?php print render($page['footer_top3']); ?>
-      </div>
-      <div class="col-xs-12 col-sm-6" id="footer_top4">
-        <?php print render($page['footer_top4']); ?>
-      </div>
-    </div>
-
-
-    <div class="row col-lg-12" id="footer">
+       <div class="row col-lg-12" id="footer">
       <div class="col-lg-12 line-foot"></div>
       <?php print render($page['footer']); ?>
     </div>

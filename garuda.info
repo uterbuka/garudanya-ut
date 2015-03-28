@@ -10,16 +10,16 @@ base theme = bootstrap
 
 regions[header]         = 'Top bar'
 
-regions[highlighted]    = 'Highlighted'
+;regions[highlighted]    = 'Highlighted'
 
-regions[page_top1]      = 'Page top left'
-regions[page_top2]      = 'Page top middle left'
-regions[page_top3]      = 'Page top middle right'
-regions[page_top4]      = 'Page top right'
+;regions[page_top1]      = 'Page top left'
+;regions[page_top2]      = 'Page top middle left'
+;regions[page_top3]      = 'Page top middle right'
+;regions[page_top4]      = 'Page top right'
 
-regions[gallery1]       = 'Gallery left'
-regions[gallery2]       = 'Gallery middle'
-regions[gallery3]       = 'Gallery right'
+;regions[gallery1]       = 'Gallery left'
+;regions[gallery2]       = 'Gallery middle'
+;regions[gallery3]       = 'Gallery right'
 
 regions[help]           = 'Help'
 
@@ -27,15 +27,15 @@ regions[sidebar_first]  = 'Primary'
 regions[content]        = 'Content'
 regions[sidebar_second] = 'Secondary'
 
-regions[page_bottom1]    = 'Page bottom left'
-regions[page_bottom2]    = 'Page bottom middle left'
-regions[page_bottom3]    = 'Page bottom middle right'
-regions[page_bottom4]    = 'Page bottom right'
+;regions[page_bottom1]    = 'Page bottom left'
+;regions[page_bottom2]    = 'Page bottom middle left'
+;regions[page_bottom3]    = 'Page bottom middle right'
+;regions[page_bottom4]    = 'Page bottom right'
 
-regions[footer_top1]     = 'Footer top upper left'
-regions[footer_top2]     = 'Footer top upper right'
-regions[footer_top3]     = 'Footer top lower left'
-regions[footer_top4]     = 'Footer top lower right'
+;regions[footer_top1]     = 'Footer top upper left'
+;regions[footer_top2]     = 'Footer top upper right'
+;regions[footer_top3]     = 'Footer top lower left'
+;regions[footer_top4]     = 'Footer top lower right'
 
 regions[footer]          = 'Footer'
 
