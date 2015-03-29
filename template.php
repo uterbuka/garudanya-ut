@@ -5,15 +5,15 @@
  * template.php
  */
  
- function garuda_theme() {
+ function uttheme_theme() {
   $items = array();
   // create custom user-login.tpl.php
   $items['user_login'] = array(
   'render element' => 'form',
-  'path' => drupal_get_path('theme', 'garuda') . '/templates',
+  'path' => drupal_get_path('theme', 'uttheme') . '/templates',
   'template' => 'user-login',
   'preprocess functions' => array(
-  'garuda_preprocess_user_login'
+  'uttheme_preprocess_user_login'
   ),
  );
 return $items;

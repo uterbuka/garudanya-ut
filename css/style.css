@@ -8151,8 +8151,8 @@ body.admin-menu.navbar-is-fixed-top {
 Highlighted main
 */
 /* line 115, ../sass/garuda/style.scss */
-.highlighted-main {
-  background: url("../images/sun-cloud.jpg");
+.Highlighted-main {
+  background: url("../images/line-footer.png");
   height: 350px;
   color: #72491d;
   text-align: center;
@@ -8162,7 +8162,7 @@ Highlighted main
 }
 
 /* line 125, ../sass/garuda/style.scss */
-.region-highlighted p {
+.region-Highlighted p {
   margin-top: 10%;
   line-height: 40px;
 }
@@ -8465,7 +8465,7 @@ Footer
 /* line 412, ../sass/garuda/style.scss */
 .line-foot {
   background-image: url("../images/line-footer.png");
-  height: 47px;
+  height: 100px;
   background-repeat: no-repeat;
   background-position: center;
   padding: 6% 0;
@@ -8489,21 +8489,21 @@ Footer
   height: 32px;
 }
 
-/* line 435, ../sass/garuda/style.scss */
+/* line 436, ../sass/garuda/style.scss */
 #footer .region-footer img {
-  height: 32px;
+  height: 100px;
 }
 
 /*
 Copyright
 */
-/* line 444, ../sass/garuda/style.scss */
+/* line 445, ../sass/garuda/style.scss */
 #copyright {
   text-align: center;
   padding: 30px 0;
   color: #7b7b7b;
 }
-/* line 448, ../sass/garuda/style.scss */
+/* line 449, ../sass/garuda/style.scss */
 #copyright a {
   font-size: 15px;
   color: #7b7b7b;

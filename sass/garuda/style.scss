@@ -112,8 +112,8 @@ body.admin-menu.navbar-is-fixed-top{
 /*
 Highlighted main
 */
-.highlighted-main{
-  background: url('../images/sun-cloud.jpg');
+.Highlighted-main{
+  background: url('../images/line-footer.png');
   height: 350px;
   color: #72491d;
   text-align: center;
@@ -121,7 +121,7 @@ Highlighted main
   /*margin-top: 100px;*/
   font-family: 'Maven Pro', sans-serif;
 }
-.region-highlighted{
+.region-Highlighted{
   p{
     margin-top: 10%;
     line-height: 40px;
@@ -411,7 +411,7 @@ Footer
 */
 .line-foot{
   background-image: url('../images/line-footer.png');
-  height: 47px;
+  height: 100px;
   background-repeat: no-repeat;
   background-position: center;
   padding: 6% 0;
@@ -432,8 +432,9 @@ Footer
 }
 #footer{
   .region-footer{
+  
     img{
-      height: 32px;
+      height: 100px;
     }
   }
 }

@@ -16,10 +16,11 @@
       <?php endif; ?>
     </div>
   </div>
+  
 
   <div class="container-full navbar-full">
     <div class="container">
-      <div class="navbar-header">
+	      <div class="navbar-header">
         <?php if ($logo): ?>
         <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
           <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
@@ -51,13 +52,6 @@
   </div>
 </header>
 
-
-
-<div class="main-container container-full">
-  <div class="container">
-    <div class="row col-lg-12">
-
-   
     <?php if (!empty($page['help'])): ?>
       <div class="row col-lg-12" id="help">
         <?php print render($page['help']); ?>
@@ -97,15 +91,8 @@
       <?php endif; ?>
     </div>
 
-  <div class="footer container">
-
-       <div class="row col-lg-12" id="footer">
+       <!-- <div class="row col-lg-12" id="footer">-->
       <div class="col-lg-12 line-foot"></div>
       <?php print render($page['footer']); ?>
     </div>
 
-    <div class="row col-lg-12" id="copyright">
-      <?php print render($page['copyright']); ?>
-    </div>
-  </footer>
-</div>
