@@ -92,7 +92,9 @@
     </div>
 
        <!-- <div class="row col-lg-12" id="footer">-->
-      <div class="col-lg-12 line-foot"></div>
+      <div class="col-lg-12 line-foot">
+		<img src="<?php print base_path() . drupal_get_path('theme', 'uttheme').'/images/line-footer.png'; ?>" />
+	  </div>
       <?php print render($page['footer']); ?>
     </div>
 
