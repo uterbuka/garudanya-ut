@@ -79,6 +79,7 @@ body.admin-menu.navbar-is-fixed-top{
     li{
       a{
         color: #fff;
+		background-color:#000;
         font-size: 18px;
         text-transform: uppercase;
         text-decoration: none;
@@ -452,3 +453,61 @@ Copyright
     color: #7b7b7b;
   }
 }
+
+/* Pengaturan Layout home */
+.pane-content {
+    width: 100%;
+	display:block;
+	background-color: blue;
+	border-radius:20px;
+    height: auto;
+    margin: 0 auto;
+
+	ul {
+       list-style:none;
+	   width:100%;
+	   font-size:30px;
+	   display:block;
+	   text-align:center !important;
+	   float:center;
+	   
+	   li {
+	    width:96%;
+	    margin:2%;
+		list-style:none;
+		display:block;
+		float:none !important;
+		
+		a {
+		    width:100%;
+			display:block;
+			border-radius:20px;
+			background-color: #556B2F;
+			color: #000;
+			cursor:pointer;
+			height:100px;
+			margin:0;
+			padding:0;
+			padding-top:25px;
+			border: 3px solid #ff0097;
+			&:hover {
+				-webkit-filter: grayscale(0.4);
+				border: 3px solid #ccc;
+				}
+			}
+		}
+		li.first {
+		a {
+		  background-color: #00CED1;
+		}
+		}
+		li.last {
+		a {
+          background-color: #FF8C00;
+		}
+		}
+	}
+}
+
+
+
