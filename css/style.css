@@ -8548,3 +8548,260 @@ Copyright
   -webkit-filter: grayscale(0.8);
   border: 8px solid #fff;
 }
+
+/* Style Halaman Pendaftaran */
+/* line 496, ../sass/garuda/style.scss */
+.page-user-register .page-header, .page-user-password .page-header {
+  position: absolute;
+  padding: 20px;
+  top: 0;
+  left: 20%;
+  font-size: 14px;
+  z-index: 99;
+  border: 1px solid #999999;
+  background: #ffffff;
+}
+
+/* line 509, ../sass/garuda/style.scss */
+#user-register-form, #user-pass {
+  width: 65%;
+  margin: 0 auto;
+  padding: 50px 0px 20px 250px;
+  border: 1px solid #999999;
+  margin-top: 70px !important;
+}
+
+/* line 517, ../sass/garuda/style.scss */
+.back-to-login {
+  float: right;
+  padding-right: 36%;
+}
+
+/* line 522, ../sass/garuda/style.scss */
+#user-register-form fieldset, #user-pass fieldset, #user-login fieldset {
+  width: 65%;
+}
+
+/* line 527, ../sass/garuda/style.scss */
+#user-register-form #edit-mail, #user-register-form #edit-name, #user-register-form #edit-pass, #user-register-form #edit-field-text-255-a-und-0-value, #user-pass #edit-mail, #user-pass #edit-name, #user-pass #edit-pass, #user-pass #edit-field-text-255-a-und-0-value {
+  width: 40%;
+}
+
+/* line 532, ../sass/garuda/style.scss */
+#data-pribadi-node-form input, #data-pribadi-node-form select, #user-profile-form input {
+  display: block;
+  width: 60%;
+}
+
+/* line 537, ../sass/garuda/style.scss */
+.reload-captcha-wrapper, .reload-captcha-wrapper a {
+  color: transparent;
+  float: left;
+  background: no-repeat 35% 100% url("../images/reload.png");
+  width: 70px;
+  height: 50px;
+  border: 0px solid red;
+}
+
+/* line 546, ../sass/garuda/style.scss */
+#edit-captcha-response {
+  width: 30%;
+}
+
+/* line 550, ../sass/garuda/style.scss */
+.captcha img {
+  float: left;
+}
+
+/* line 554, ../sass/garuda/style.scss */
+.view-data-pribadi {
+  border: 0px solid red;
+}
+
+/* line 558, ../sass/garuda/style.scss */
+.view-data-pribadi th {
+  padding: 14px 60px 14px 10px;
+  background: #c9c7c7;
+  border-bottom: 1px solid #e4e4e4;
+  border-right: 1px solid #fff;
+  color: #1c355c;
+}
+
+/* line 566, ../sass/garuda/style.scss */
+.view-data-pribadi .views-field-title {
+  background: #fff;
+  padding-bottom: 30px;
+  border-bottom: 5px solid #b4b5b8;
+  color: navy;
+  font-weight: bold;
+}
+
+/* line 574, ../sass/garuda/style.scss */
+.view-data-pribadi td {
+  padding: 14px 10px 14px 25px;
+  background: #e4e4e4;
+  width: 70%;
+  border-bottom: 1px solid #fff;
+}
+
+/* line 580, ../sass/garuda/style.scss */
+.view-data-pribadi img {
+  border: 1px solid #f4f5f6;
+  border-radius: 3px;
+}
+
+/* line 585, ../sass/garuda/style.scss */
+.region-sidebar-first {
+  margin-top: 20px;
+  padding-bottom: 80px;
+}
+
+/* line 590, ../sass/garuda/style.scss */
+.region-sidebar-first li {
+  border-bottom: 1px solid #b4b5b8;
+  padding: 10px 0px 10px 0px;
+}
+
+/* line 595, ../sass/garuda/style.scss */
+#form-control form-text required {
+  width: 40%;
+}
+
+/* line 599, ../sass/garuda/style.scss */
+label {
+  width: 225px;
+  vertical-align: top;
+}
+
+/* line 604, ../sass/garuda/style.scss */
+.form-control {
+  display: inline-block;
+}
+
+/* line 608, ../sass/garuda/style.scss */
+.form-radios {
+  display: inline-block;
+  width: 55%;
+}
+
+/* form gede */
+/* line 614, ../sass/garuda/style.scss */
+#user-register-form {
+  /*.recaptcha_only_if_image
+       a {background:url('../images/audio.png')
+  	 no-repeat;
+  	 width:24px;
+  	 height:24px;
+  	 padding-left:30px;
+  	 color:#fff;
+  	 text-decoration:none;
+  	 position:absolute;
+  	 margin-left:380px;
+  	 margin-top:-65px;
+  	 display:none !important
+
+  }
+  */
+}
+/* line 616, ../sass/garuda/style.scss */
+#user-register-form #recaptcha_image {
+  width: 200px !important;
+  float: left;
+  margin-left: 155px;
+}
+/* line 620, ../sass/garuda/style.scss */
+#user-register-form #recaptcha_image img {
+  width: 100% !important;
+  height: 25px;
+  border: 2px solid #000;
+}
+/* line 626, ../sass/garuda/style.scss */
+#user-register-form .recaptcha_only_if_image {
+  font-size: 0px !important;
+}
+/* line 629, ../sass/garuda/style.scss */
+#user-register-form #recaptcha_image {
+  margin-bottom: 10px;
+}
+/* line 630, ../sass/garuda/style.scss */
+#user-register-form .recaptcha_get_another_captcha
+a {
+  background: url("../images/reload.png") no-repeat;
+  width: 22px;
+  height: 22px;
+  padding-left: 30px;
+  color: #fff;
+  text-decoration: none;
+  position: absolute;
+  margin-left: 360px;
+  margin-top: -65px;
+}
+/* line 658, ../sass/garuda/style.scss */
+#user-register-form #recaptcha_response_field {
+  width: 135px;
+  float: left;
+  margin-left: -355px;
+}
+/* line 663, ../sass/garuda/style.scss */
+#user-register-form .recaptcha_get_another_captcha {
+  clear: left;
+}
+
+/* line 665, ../sass/garuda/style.scss */
+.recaptcha_help {
+  display: none;
+}
+
+/* form cilik depan */
+/* line 670, ../sass/garuda/style.scss */
+#recaptcha_image {
+  width: 100% !important;
+  margin-bottom: 10px !important;
+}
+/* line 673, ../sass/garuda/style.scss */
+#recaptcha_image img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 680, ../sass/garuda/style.scss */
+#recaptcha_image {
+  margin-bottom: 10px;
+}
+
+/* line 681, ../sass/garuda/style.scss */
+.recaptcha_get_another_captcha a {
+  background: url("../images/reload.png") no-repeat;
+  width: 24px;
+  height: 22px;
+  padding-left: 30px;
+  font-size: 0px;
+  color: #fff;
+  text-decoration: none;
+  position: absolute;
+  margin-left: 65%;
+  margin-top: -25px;
+}
+
+/*.recaptcha_only_if_image a {background:url('../images/audio.png')
+   no-repeat;
+   width:24px;
+   height:24px;
+   padding-left:30px;
+   color:#fff;
+   text-decoration:none;
+   position: absolute;
+   margin-left: 215px;
+   margin-top: -25px;
+
+}
+*/
+/* line 708, ../sass/garuda/style.scss */
+#recaptcha_response_field {
+  width: 95%;
+}
+
+/* line 712, ../sass/garuda/style.scss */
+.recaptcha_only_if_image {
+  display: none !important;
+}

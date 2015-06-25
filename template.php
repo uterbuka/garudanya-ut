@@ -4,7 +4,7 @@
  * @file
  * template.php
  */
- 
+ /*
  function uttheme_theme() {
   $items = array();
   // create custom user-login.tpl.php
@@ -19,4 +19,4 @@
 return $items;
 }
 
-
+*/

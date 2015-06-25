@@ -433,7 +433,7 @@ Footer
 }
 #footer{
   .region-footer{
-  
+
     img{
       height: 100px;
 	      }
@@ -468,13 +468,13 @@ Copyright
 	   font-size:30px;
 	   text-align:center !important;
 	   float:center;
-	   
+
 	   li {
 	    width:96%;
 	    margin:2%;
 		list-style:none;
 		float:none !important;
-		
+
 		a {
 		    width:100%;
 			color: blue;
@@ -491,4 +491,224 @@ Copyright
 }
 
 
+/* Style Halaman Pendaftaran */
+.page-user-register, .page-user-password {
+  .page-header {
+    position:absolute;
+    padding:20px;
+    top:0;
+    left:20%;
+    font-size:14px;
+    z-index:99;
+    border:1px solid #999999;
+    background:#ffffff;
 
+  }
+}
+
+#user-register-form, #user-pass{
+  width: 65%;
+  margin: 0 auto;
+  padding: 50px 0px 20px 250px;
+  border: 1px solid #999999;
+  margin-top: 70px !important;
+}
+
+.back-to-login{
+  float:right;
+  padding-right: 36%;
+}
+
+#user-register-form fieldset, #user-pass fieldset, #user-login fieldset{
+  width: 65%;
+}
+
+#user-register-form, #user-pass{
+  #edit-mail, #edit-name, #edit-pass, #edit-field-text-255-a-und-0-value {
+    width: 40% ;
+  }
+}
+
+#data-pribadi-node-form input, #data-pribadi-node-form select,  #user-profile-form input{
+  display: block;
+  width: 60%;
+}
+
+.reload-captcha-wrapper, .reload-captcha-wrapper a{
+  color: transparent;
+  float: left;
+  background: no-repeat 35% 100% url('../images/reload.png') ;
+  width: 70px;
+  height: 50px;
+  border:0px solid red;
+}
+
+#edit-captcha-response{
+  width:30%;
+}
+
+.captcha img{
+  float : left;
+}
+
+.view-data-pribadi{
+  border: 0px solid red;
+}
+
+.view-data-pribadi th{
+  padding: 14px 60px 14px 10px;
+  background: #c9c7c7;
+  border-bottom: 1px solid #e4e4e4;
+  border-right: 1px solid #fff;
+  color: #1c355c;
+}
+
+.view-data-pribadi .views-field-title{
+  background: #fff;
+  padding-bottom: 30px;
+  border-bottom: 5px solid #b4b5b8;
+  color: navy;
+  font-weight:bold;
+}
+
+.view-data-pribadi td{
+   padding: 14px 10px 14px 25px;
+   background: #e4e4e4;
+   width:70%;
+   border-bottom: 1px solid #fff;
+}
+.view-data-pribadi img{
+  border:1px solid #f4f5f6;
+  border-radius:3px;
+}
+
+.region-sidebar-first{
+  margin-top: 20px;
+  padding-bottom: 80px;
+}
+
+.region-sidebar-first li{
+  border-bottom:1px solid #b4b5b8;
+  padding:10px 0px 10px 0px;
+}
+
+#form-control form-text required{
+  width: 40% ;
+}
+
+label {
+  width:225px ;
+  vertical-align: top;
+}
+
+.form-control {
+  display: inline-block ;
+}
+
+.form-radios {
+  display: inline-block ;
+  width: 55%;
+}
+
+/* form gede */
+#user-register-form {
+
+#recaptcha_image {
+	width: 200px !important;
+	float:left;
+	margin-left:155px;
+    img {
+		width: 100% !important;
+		height: 25px;
+		border: 2px solid #000;
+	}
+}
+.recaptcha_only_if_image {
+	font-size:0px !important
+}
+#recaptcha_image {margin-bottom:10px}
+.recaptcha_get_another_captcha
+   a{background:url('../images/reload.png')
+      no-repeat;
+	  width:22px;
+	  height:22px;
+	  padding-left:30px;
+	  color:#fff;
+	  text-decoration:none;
+	  position:absolute;
+	  margin-left:360px;
+	  margin-top:-65px;
+
+}
+/*.recaptcha_only_if_image
+     a {background:url('../images/audio.png')
+	 no-repeat;
+	 width:24px;
+	 height:24px;
+	 padding-left:30px;
+	 color:#fff;
+	 text-decoration:none;
+	 position:absolute;
+	 margin-left:380px;
+	 margin-top:-65px;
+	 display:none !important
+
+}
+*/
+#recaptcha_response_field {
+  width:135px;
+  float:left;
+  margin-left:-355px
+}
+.recaptcha_get_another_captcha {clear:left}
+}
+.recaptcha_help {
+  display:none;
+}
+
+/* form cilik depan */
+#recaptcha_image {
+	width:100% !important;
+	margin-bottom: 10px !important;
+	 img {
+		width: 100%;
+		height: auto;
+
+	}
+}
+
+#recaptcha_image {margin-bottom:10px}
+.recaptcha_get_another_captcha a{background:url('../images/reload.png')
+    no-repeat;
+	width:24px;
+    height:22px;
+	padding-left:30px;
+	font-size: 0px;
+    color:#fff;
+    text-decoration:none;
+    position: absolute;
+    margin-left: 65%;
+    margin-top: -25px;
+
+}
+/*.recaptcha_only_if_image a {background:url('../images/audio.png')
+   no-repeat;
+   width:24px;
+   height:24px;
+   padding-left:30px;
+   color:#fff;
+   text-decoration:none;
+   position: absolute;
+   margin-left: 215px;
+   margin-top: -25px;
+
+}
+*/
+
+#recaptcha_response_field {
+  width:95%;
+}
+
+.recaptcha_only_if_image {
+      display:none !important
+	  }
