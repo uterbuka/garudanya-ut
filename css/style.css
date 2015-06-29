@@ -8637,6 +8637,11 @@ Copyright
 }
 
 /* line 574, ../sass/garuda/style.scss */
+#data-pribadi-node-form #edit-title {
+  pointer-events: none;
+}
+
+/* line 578, ../sass/garuda/style.scss */
 .view-data-pribadi td {
   padding: 14px 10px 14px 25px;
   background: #e4e4e4;
@@ -8644,48 +8649,48 @@ Copyright
   border-bottom: 1px solid #fff;
 }
 
-/* line 580, ../sass/garuda/style.scss */
+/* line 584, ../sass/garuda/style.scss */
 .view-data-pribadi img {
   border: 1px solid #f4f5f6;
   border-radius: 3px;
 }
 
-/* line 585, ../sass/garuda/style.scss */
+/* line 589, ../sass/garuda/style.scss */
 .region-sidebar-first {
   margin-top: 20px;
   padding-bottom: 80px;
 }
 
-/* line 590, ../sass/garuda/style.scss */
+/* line 594, ../sass/garuda/style.scss */
 .region-sidebar-first li {
   border-bottom: 1px solid #b4b5b8;
   padding: 10px 0px 10px 0px;
 }
 
-/* line 595, ../sass/garuda/style.scss */
+/* line 599, ../sass/garuda/style.scss */
 #form-control form-text required {
   width: 40%;
 }
 
-/* line 599, ../sass/garuda/style.scss */
+/* line 603, ../sass/garuda/style.scss */
 label {
   width: 225px;
   vertical-align: top;
 }
 
-/* line 604, ../sass/garuda/style.scss */
+/* line 608, ../sass/garuda/style.scss */
 .form-control {
   display: inline-block;
 }
 
-/* line 608, ../sass/garuda/style.scss */
+/* line 612, ../sass/garuda/style.scss */
 .form-radios {
   display: inline-block;
   width: 55%;
 }
 
 /* form gede */
-/* line 614, ../sass/garuda/style.scss */
+/* line 618, ../sass/garuda/style.scss */
 #user-register-form {
   /*.recaptcha_only_if_image
        a {background:url('../images/audio.png')
@@ -8699,31 +8704,31 @@ label {
   	 margin-left:380px;
   	 margin-top:-65px;
   	 display:none !important
-
+  
   }
   */
 }
-/* line 616, ../sass/garuda/style.scss */
+/* line 620, ../sass/garuda/style.scss */
 #user-register-form #recaptcha_image {
   width: 200px !important;
   float: left;
   margin-left: 155px;
 }
-/* line 620, ../sass/garuda/style.scss */
+/* line 624, ../sass/garuda/style.scss */
 #user-register-form #recaptcha_image img {
   width: 100% !important;
   height: 25px;
   border: 2px solid #000;
 }
-/* line 626, ../sass/garuda/style.scss */
+/* line 630, ../sass/garuda/style.scss */
 #user-register-form .recaptcha_only_if_image {
   font-size: 0px !important;
 }
-/* line 629, ../sass/garuda/style.scss */
+/* line 633, ../sass/garuda/style.scss */
 #user-register-form #recaptcha_image {
   margin-bottom: 10px;
 }
-/* line 630, ../sass/garuda/style.scss */
+/* line 634, ../sass/garuda/style.scss */
 #user-register-form .recaptcha_get_another_captcha
 a {
   background: url("../images/reload.png") no-repeat;
@@ -8736,40 +8741,40 @@ a {
   margin-left: 360px;
   margin-top: -65px;
 }
-/* line 658, ../sass/garuda/style.scss */
+/* line 662, ../sass/garuda/style.scss */
 #user-register-form #recaptcha_response_field {
   width: 135px;
   float: left;
   margin-left: -355px;
 }
-/* line 663, ../sass/garuda/style.scss */
+/* line 667, ../sass/garuda/style.scss */
 #user-register-form .recaptcha_get_another_captcha {
   clear: left;
 }
 
-/* line 665, ../sass/garuda/style.scss */
+/* line 669, ../sass/garuda/style.scss */
 .recaptcha_help {
   display: none;
 }
 
 /* form cilik depan */
-/* line 670, ../sass/garuda/style.scss */
+/* line 674, ../sass/garuda/style.scss */
 #recaptcha_image {
   width: 100% !important;
   margin-bottom: 10px !important;
 }
-/* line 673, ../sass/garuda/style.scss */
+/* line 677, ../sass/garuda/style.scss */
 #recaptcha_image img {
   width: 100%;
   height: auto;
 }
 
-/* line 680, ../sass/garuda/style.scss */
+/* line 684, ../sass/garuda/style.scss */
 #recaptcha_image {
   margin-bottom: 10px;
 }
 
-/* line 681, ../sass/garuda/style.scss */
+/* line 685, ../sass/garuda/style.scss */
 .recaptcha_get_another_captcha a {
   background: url("../images/reload.png") no-repeat;
   width: 24px;
@@ -8796,12 +8801,12 @@ a {
 
 }
 */
-/* line 708, ../sass/garuda/style.scss */
+/* line 712, ../sass/garuda/style.scss */
 #recaptcha_response_field {
   width: 95%;
 }
 
-/* line 712, ../sass/garuda/style.scss */
+/* line 716, ../sass/garuda/style.scss */
 .recaptcha_only_if_image {
   display: none !important;
 }
