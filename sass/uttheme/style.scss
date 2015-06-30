@@ -495,9 +495,9 @@ Copyright
 .page-user-register, .page-user-password {
   .page-header {
     position:absolute;
-    padding:20px;
+    padding:15px;
     top:0;
-    left:20%;
+    left:32%;
     font-size:14px;
     z-index:99;
     border:1px solid #999999;
@@ -507,9 +507,9 @@ Copyright
 }
 
 #user-register-form, #user-pass{
-  width: 65%;
+  width: 40%;
   margin: 0 auto;
-  padding: 50px 0px 20px 250px;
+  padding: 50px 0px 20px 50px;
   border: 1px solid #999999;
   margin-top: 70px !important;
 }
@@ -520,7 +520,7 @@ Copyright
 }
 
 #user-register-form fieldset, #user-pass fieldset, #user-login fieldset{
-  width: 65%;
+  width: 70%;
 }
 
 #user-register-form, #user-pass{
@@ -540,7 +540,6 @@ Copyright
   background: no-repeat 35% 100% url('../images/reload.png') ;
   width: 70px;
   height: 50px;
-  border:0px solid red;
 }
 
 #edit-captcha-response{
